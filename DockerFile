@@ -1,0 +1,8 @@
+FROM java:8 
+EXPOSE 8080
+ADD /opt/DockerFile/vb6.jar  /opt/DockerFile/vb6.jar
+docker build -t /opt/DockerFile vbjar.jar
+
+
+
+
