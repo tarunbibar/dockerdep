@@ -1,7 +1,7 @@
 FROM java:8 
 EXPOSE 8080
-ADD /opt/DockerFile/vb6.jar  /opt/DockerFile/vb6.jar
-docker build -t /opt/DockerFile vbjar.jar
+ADD https://registry.hub.docker.com/u/tarunbibar/dockerdep/trigger/b4ab7ea8-c4d2-4ba2-877a-254bc5783537/ 
+
 
 
 
